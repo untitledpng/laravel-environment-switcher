@@ -1,0 +1,19 @@
+{
+  "name": "untitled_png/laravel-environment-switcher",
+  "require": {
+    "php": ">=8.2",
+    "laravel/framework": ">=9.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "UntitledPng\\LaravelEnvironmentSwitcher\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "UntitledPng\\LaravelEnvironmentSwitcher\\ServiceProvider"
+      ]
+    }
+  }
+}
