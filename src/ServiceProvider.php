@@ -4,9 +4,9 @@ namespace UntitledPng\LaravelEnvironmentSwitcher;
 
 use Illuminate\Support\ServiceProvider as IlluminateServiceProvider;
 use UntitledPng\LaravelEnvironmentSwitcher\Commands\SwitchEnvironment;
-use UntitledPng\LaravelEnvironmentSwitcher\Commands\SwitchToLocal;
-use UntitledPng\LaravelEnvironmentSwitcher\Commands\SwitchToProduction;
-use UntitledPng\LaravelEnvironmentSwitcher\Commands\SwitchToStaging;
+use UntitledPng\LaravelEnvironmentSwitcher\Commands\EnvironmentSpecific\SwitchToLocal;
+use UntitledPng\LaravelEnvironmentSwitcher\Commands\EnvironmentSpecific\SwitchToProduction;
+use UntitledPng\LaravelEnvironmentSwitcher\Commands\EnvironmentSpecific\SwitchToStaging;
 
 class ServiceProvider extends IlluminateServiceProvider
 {

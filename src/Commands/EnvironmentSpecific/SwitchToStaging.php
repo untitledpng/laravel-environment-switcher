@@ -1,6 +1,6 @@
 <?php
 
-namespace UntitledPng\LaravelEnvironmentSwitcher\Commands;
+namespace UntitledPng\LaravelEnvironmentSwitcher\Commands\EnvironmentSpecific;
 
 use Exception;
 use Illuminate\Console\Command;
