@@ -12,7 +12,7 @@ Switch between multiple .env files in your Laravel app with one command. Perfect
 ## Installation
 ### Install via Composer:
 ```
-composer require untitled_png/laravel-environment-switcher
+composer require untitled_png/laravel-environment-switcher --dev
 ```
 
 ### (Optional) Publish the config to customize environments:

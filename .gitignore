@@ -33,6 +33,4 @@ auth.json
 /.idea/php.xml
 /.idea/vcs.xml
 /composer.lock
-/.idea/.gitignore
-/.idea/laravel-idea.xml
-/.idea/laravel-idea-personal.xml
+/.idea
